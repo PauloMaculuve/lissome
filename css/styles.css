@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+body{
+	line-height: 1.8;
+	color: #898fa1;
+	font-size: 15px;
+	font-family: 'Lato', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #11245a;
+}
+a{
+	font-weight: 700;
+	text-decoration: none;
+	transition: all 0.4s ease;
+}
+img{
+	width: 100%;
+}
+small{
+	font-size: 12px;
+	letter-spacing: 2px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+section{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.logo-text{
+	font-size: 22px;
+	text-transform: uppercase;
+	color: #11245a !important;
+}
+.navbar{
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.navbar .nav-link {
+	font-size: 12px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link.active{
+   color: #E93B81;
+}
+#home{
+	min-height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background: linear-gradient(rgba(17, 36, 90, 0.8),rgba(17, 36, 90, 0.8)), url(../img/hero_img.jpg);
+	display: flex;
+	align-items: center;
+}
+# h1{
+	font-weight: 700;
+}
+#home p{
+	max-width: 550px;
+	margin: 18px auto;
+}
+.btn{
+	font-weight: 700;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 12px 28px;
+	border-radius:0;
+	border: none;
+}
+.btn-brand{
+	background: #e93991;
+	color: #fff;
+}
+.btn-brand:hover{
+	background: #ce2f6e;
+	color: #fff;
+
+}
+.section-intro {
+	text-align: center;
+}
+.section-intro .hline{
+	width: 120px;
+	height: 2px;
+	margin: 16px auto 0 auto;
+	background: rgba(0, 0, 0, 0.1);
+}
+.box-icon{
+	width: 60px;
+	height: 60px;
+	background: #e93991;
+	color: #ffffff;
+	border-radius: 4px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	font-size: 32px;
+	flex: none;
+}
+.portfolio-item{
+	position: relative;
+	overflow: hidden;
+}
+.portfolio-item img,
+.portfolio-item .portfolio-overlay{
+	transition: all 0.4s ease;
+}
+.portfolio-overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(17, 36, 90, 0.8);
+	display: flex;
+	align-items: flex-end;
+	padding: 30px;
+	opacity: 0;
+}
+.portfolio-overlay h3,
+.portfolio-overlay h6{
+	color: #fff;
+}
+.portfolio-item:hover .portfolio-overlay{
+	opacity: 1;
+}
+.portfolio-item:hover img{
+	transform: scale(1.1);
+}
+.feature .box-icon{
+	width: 34px;
+	height: 34px;
+	border-radius: 100%;
+	font-size: 24px;
+}
+.team-member{
+	background: #11245A;
+}
+.team-member.event{
+	background: #162e6e;
+}
+.team-member .hline{
+	width: 70px;
+	height: 2px;
+	background: rgba(255, 2555, 2555, 0.444);
+	margin: 16px auto;
+}
+.team-member .team-member-img img,
+.team-member .team-member-img .social-icons{
+	transition: all 0.4s;
+}
+.team-member .team-member-img{
+	position: relative;
+	overflow: hidden;
+}
+.team-member .team-member-img .social-icons{
+	width: 100%;
+	height: 60px;
+	background: #e93991;
+	position: absolute;
+	bottom: -60px;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.team-member .team-member-img .social-icons a{
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid rgba(255, 255, 255, 0.5);
+	font-size: 24px;
+	border-radius: 100px;
+	color: #fff;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+.team-member .team-member-img .social-icons a:hover{
+	background: #fff;
+	color: #e93991;
+}
+.team-member:hover .team-member-img .social-icons{
+	bottom: 0;
+}
+.team-member:hover img{
+	transform: translateY(-60px);
+}
+.review .stars{
+	color: #e93991;
+}
+.review p{
+	max-width: 720px;
+	margin: 24px auto;
+	font-style: italic;
+}
+#testimonials img{
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+	transition: all 0.4s;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+	background: transparent;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link img{
+	transform: scale(1.5);
+}
+#client img{
+	height: 34px;
+}
+form .form-control{
+	border-radius: 0;
+}
+form .form-control:focus{
+	box-shadow: none;
+	border-color: #e93991;
+}
+#cts{
+	background: #e93991;
+}
+.footer-top{
+	padding-top: 80px;
+	padding-bottom: 30px;
+}
+.footer-bottom{
+	padding-top: 80px;
+	padding-bottom: 30px;
+}
+footer .social-icons{
+	font-size: 24px;
+}
+footer .footer-links a{
+	display: block;
+	font-weight: 400;
+}
+footer .footer-links a,
+footer .social-icons a{
+	color: #898fa1;
+}
+footer .footer-links a:hover,
+footer .social-icons a:hover {
+	color: #e93991;
+}
